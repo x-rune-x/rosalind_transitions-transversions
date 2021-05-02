@@ -36,6 +36,7 @@ def create_fasta_list(file_name):
     return fasta_list
 
 
+# Function arguments are two DNA sequences of identical length.
 def transition_transversion(seq1, seq2):
     transition_num = 0
     transversion_num = 0
